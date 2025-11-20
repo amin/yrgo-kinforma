@@ -1,0 +1,39 @@
+// Spacing scale
+$spacers: (
+    1: 1rem,
+    2: 2rem,
+    3: 3rem,
+    4: 4rem,
+    5: 5rem,
+    6: 6rem
+);
+
+// Margin Top
+@each $key, $value in $spacers {
+    .mt-#{$key} {
+        margin-top: $value;
+    }
+}
+
+// Margin Bottom
+@each $key, $value in $spacers {
+    .mb-#{$key} {
+        margin-bottom: $value;
+    }
+}
+
+// Margin Y (top and bottom)
+@each $key, $value in $spacers {
+    .my-#{$key} {
+        margin-top: $value;
+        margin-bottom: $value;
+    }
+}
+
+// Padding Y (top and bottom)
+@each $key, $value in $spacers {
+    .py-#{$key} {
+        padding-top: $value;
+        padding-bottom: $value;
+    }
+}
