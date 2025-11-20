@@ -1,5 +1,19 @@
 .container {
-    max-width: 90%;
+    width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 1rem;
+
+    @media (min-width: 640px) {
+        padding: 0 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+        padding: 0 2rem;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 0 3rem;
+    }
 }
