@@ -1,4 +1,31 @@
 .icon {
     width: 1.5rem;
     height: 1.5rem;
+    background-color: #282829;
+    display: block;
+
+    &--sm {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    &--arrow {
+        mask: url("/src/assets/images/icons/arrow.svg") no-repeat center;
+        mask-size: contain;
+    }
+
+    &--search {
+        mask: url("/src/assets/images/icons/search.svg") no-repeat center;
+        mask-size: contain;
+    }
+
+    &--cart {
+        mask: url("/src/assets/images/icons/cart.svg") no-repeat center;
+        mask-size: contain;
+    }
+
+    &--cross {
+        mask: url("/src/assets/images/icons/cross.svg") no-repeat center;
+        mask-size: contain;
+    }
 }
