@@ -1,0 +1,21 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #e1e1e1;
+    padding: 0.75rem 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #1e1e1f;
+
+    &--orange {
+        background-color: #ff7b2c;
+        &:hover {
+            background-color: #1e1e1f;
+            color: #ff7b2c;
+            .icon {
+                background-color: #ff7b2c;
+            }
+        }
+    }
+}
