@@ -1,0 +1,44 @@
+.hero {
+    width: 100vw;
+    height: calc(100vh - 4rem);
+    background: url("/src/assets/images/pictures/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+
+    display: flex;
+    align-items: flex-end;
+
+    &__inner {
+        margin-bottom: 2rem;
+    }
+
+    &__heading,
+    &__copy {
+        font-family: "Oxanium", sans-serif;
+        text-transform: uppercase;
+    }
+
+    &__heading {
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 100px;
+        color: #282829;
+    }
+
+    &__copy {
+        font-weight: 600;
+        color: #ff7b2c;
+    }
+
+    @media (min-width: 768px) {
+        align-items: center;
+        &__inner {
+            margin-bottom: 0;
+        }
+
+        &__copy {
+            font-size: 2rem;
+        }
+    }
+}
