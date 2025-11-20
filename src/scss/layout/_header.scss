@@ -1,0 +1,36 @@
+.header {
+    padding: 1rem 0;
+
+    &__inner {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+    }
+
+    &__burger {
+        height: fit-content;
+        width: fit-content;
+
+        padding: 0;
+        border: none;
+        background: none;
+        cursor: pointer;
+
+        img {
+            width: 2rem;
+        }
+    }
+
+    &__logo {
+        justify-self: center;
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+
+        justify-self: end;
+
+        gap: 1.5rem;
+    }
+}
