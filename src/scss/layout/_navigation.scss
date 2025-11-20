@@ -62,7 +62,11 @@
     }
 
     @media (min-width: 768px) {
-        width: 40vw;
+        width: 45vw;
         border-right: 1px solid #1e1e1f;
+    }
+
+    @media (min-width: 1024px) {
+        width: 35vw;
     }
 }
