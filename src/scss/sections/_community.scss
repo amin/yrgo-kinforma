@@ -1,2 +1,11 @@
 .community {
+    background-color: red;
+    padding: 1rem;
+
+    &__text {
+        font-size: 2rem;
+    }
+    @media (min-width: 768px) {
+        background-color: blue;
+    }
 }
