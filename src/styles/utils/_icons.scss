@@ -10,22 +10,22 @@
     }
 
     &--arrow {
-        mask: url("/src/assets/images/icons/arrow.svg") no-repeat center;
+        mask: url("/assets/images/icons/arrow.svg") no-repeat center;
         mask-size: contain;
     }
 
     &--search {
-        mask: url("/src/assets/images/icons/search.svg") no-repeat center;
+        mask: url("/assets/images/icons/search.svg") no-repeat center;
         mask-size: contain;
     }
 
     &--cart {
-        mask: url("/src/assets/images/icons/cart.svg") no-repeat center;
+        mask: url("/assets/images/icons/cart.svg") no-repeat center;
         mask-size: contain;
     }
 
     &--cross {
-        mask: url("/src/assets/images/icons/cross.svg") no-repeat center;
+        mask: url("/assets/images/icons/cross.svg") no-repeat center;
         mask-size: contain;
     }
 }
