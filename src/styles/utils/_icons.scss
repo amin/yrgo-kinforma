@@ -34,4 +34,10 @@
         mask-size: contain;
         background-color: #bdbebe;
     }
+
+    &--mail {
+        mask: url("/assets/images/icons/mail.svg") no-repeat center;
+        mask-size: contain;
+        background-color: #bdbebe;
+    }
 }

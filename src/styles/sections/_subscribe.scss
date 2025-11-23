@@ -1,0 +1,69 @@
+.subscribe {
+    background: url("/assets/images/pictures/subscribe-mobile.png") center / cover no-repeat;
+    background-size: cover;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        justify-content: flex-end;
+    }
+    &__icon {
+        display: flex;
+        align-items: center;
+        border-radius: 2px;
+        margin: 1rem 0;
+        background-color: #fff;
+        max-width: 500px;
+        i {
+            transform: translateX(65%);
+        }
+    }
+    &__form {
+        margin-bottom: 1rem;
+        input[type="email"] {
+            margin-left: 1rem;
+            padding: 1rem;
+            width: 100%;
+            &:focus {
+                outline: none;
+            }
+            border: 0;
+        }
+        input[type="submit"] {
+            border-radius: 2px;
+            background-color: none;
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            font-weight: 500;
+            border: 0;
+            text-transform: uppercase;
+        }
+    }
+    &__heading {
+        font-size: 1.5rem;
+        font-family: "Oxanium", sans-serif;
+        font-weight: 500;
+    }
+
+    &__note {
+        font-weight: 400;
+    }
+
+    &__note,
+    &__heading {
+        color: #e5e6e4;
+    }
+
+    @media (min-width: 768px) {
+        background: url("/assets/images/pictures/subscribe-desktop.jpg") center / cover no-repeat;
+
+        &__inner {
+            height: 400px;
+            justify-content: center;
+        }
+        &__heading {
+            font-size: 2.5rem;
+        }
+    }
+}
