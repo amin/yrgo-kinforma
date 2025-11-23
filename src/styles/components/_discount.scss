@@ -1,0 +1,14 @@
+.discount {
+    &__button {
+        background-color: #ff7b2c;
+        padding: 0.4rem 2rem;
+        position: fixed;
+        font-weight: 500;
+        cursor: pointer;
+        right: 0;
+        top: 45%;
+        z-index: 1;
+        transform-origin: right top;
+        transform: rotate(90deg);
+    }
+}
