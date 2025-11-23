@@ -1,0 +1,41 @@
+.carousel {
+    &__inner {
+        display: flex;
+        gap: 1rem;
+        overflow-x: scroll; /* or overflow-y: scroll for vertical */
+        overflow-y: hidden;
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none;
+
+        scroll-snap-type: x mandatory;
+
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    &__card {
+        display: flex;
+        flex: 0 0 90%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    &__card-headline {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+
+    @media (min-width: 768px) {
+        &__card-img {
+            max-height: 500px;
+        }
+    }
+}
