@@ -28,4 +28,10 @@
         mask: url("/assets/images/icons/cross.svg") no-repeat center;
         mask-size: contain;
     }
+
+    &--plus {
+        mask: url("/assets/images/icons/plus.svg") no-repeat center;
+        mask-size: contain;
+        background-color: #bdbebe;
+    }
 }
