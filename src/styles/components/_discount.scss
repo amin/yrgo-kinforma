@@ -12,6 +12,9 @@
         top: 15%;
         transition: transform 500ms ease-in-out;
         transform: translateX(100%);
+        &--active {
+            transform: translateX(0);
+        }
     }
     &__button {
         background-color: #ff7b2c;
@@ -67,8 +70,5 @@
         i {
             transform: translateX(65%);
         }
-    }
-    &__container:hover {
-        transform: translateX(0);
     }
 }
