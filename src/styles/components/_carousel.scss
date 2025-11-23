@@ -2,11 +2,10 @@
     &__inner {
         display: flex;
         gap: 1rem;
-        overflow-x: scroll; /* or overflow-y: scroll for vertical */
+        overflow-x: scroll;
         overflow-y: hidden;
 
-        /* Hide scrollbar for Chrome, Safari and Opera */
-        -ms-overflow-style: none; /* IE and Edge */
+        -ms-overflow-style: none;
         scrollbar-width: none;
 
         scroll-snap-type: x mandatory;
