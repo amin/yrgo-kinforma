@@ -45,4 +45,8 @@
         mask: url("/assets/images/icons/shoe.svg") no-repeat center;
         mask-size: contain;
     }
+
+    &--dark {
+        background-color: #ffe5d5;
+    }
 }

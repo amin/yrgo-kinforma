@@ -2,7 +2,7 @@
     &__inner {
         display: flex;
         gap: 1rem;
-        overflow-x: scroll;
+        overflow-x: auto;
         overflow-y: hidden;
 
         -ms-overflow-style: none;
