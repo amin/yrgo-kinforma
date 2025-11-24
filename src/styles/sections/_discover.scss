@@ -1,4 +1,5 @@
 .discover {
+    position: relative;
     &__inner {
         display: flex;
         flex-direction: column;
@@ -23,6 +24,7 @@
     &__copy {
         text-align: center;
         max-width: 700px;
+        margin-bottom: 50px;
     }
 
     &__product-img {
@@ -33,5 +35,23 @@
         text-align: center;
         margin-top: 1.5rem;
         color: #282829;
+    }
+
+    &__shadow-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+    }
+
+    &__shadow {
+        position: absolute;
+        z-index: -1;
+        bottom: -20%;
+        max-height: 130%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
