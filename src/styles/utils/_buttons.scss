@@ -24,5 +24,12 @@
         color: #ffe5d5;
         background-color: #1e1e1f;
         border: 1px solid #ffe5d5;
+        &:hover {
+            background-color: #ffe5d5;
+            color: #1e1e1f;
+            .icon {
+                background-color: #1e1e1f;
+            }
+        }
     }
 }
