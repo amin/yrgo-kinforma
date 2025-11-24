@@ -9,8 +9,18 @@
         height: 1rem;
     }
 
+    &--xs {
+        width: 0.75rem;
+        height: 0.75rem;
+    }
+
     &--arrow {
         mask: url("/assets/images/icons/arrow.svg") no-repeat center;
+        mask-size: contain;
+    }
+
+    &--arrow-down {
+        mask: url("/assets/images/icons/arrow-down.svg") no-repeat center;
         mask-size: contain;
     }
 
