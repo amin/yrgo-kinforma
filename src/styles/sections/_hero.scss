@@ -36,7 +36,7 @@
     @media (min-width: 768px) {
         align-items: center;
         background: url("/assets/images/sections/hero/hero.jpg");
-
+        background-size: cover;
         background-position: right -40px;
 
         &__inner {
