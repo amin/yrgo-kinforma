@@ -1,4 +1,9 @@
 .categories {
+    &__caption {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
     &__category {
         position: relative;
         height: 300px;
