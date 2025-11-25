@@ -1,0 +1,15 @@
+.commercial {
+    &__desktop {
+        display: none;
+    }
+
+    @media (min-width: 768px) {
+        &__mobile {
+            display: none;
+        }
+
+        &__desktop {
+            display: block;
+        }
+    }
+}
