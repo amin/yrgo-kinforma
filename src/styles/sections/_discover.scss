@@ -6,6 +6,9 @@
         align-items: center;
     }
 
+    &__description {
+        font-size: 1.15rem;
+    }
     &__caption,
     &__heading {
         font-family: "Oxanium", sans-serif;
@@ -14,6 +17,7 @@
 
     &__caption {
         font-weight: 500;
+        font-size: 1rem;
     }
 
     &__heading {
@@ -35,6 +39,7 @@
         text-align: center;
         margin-top: 1.5rem;
         color: #282829;
+        font-size: 1rem;
     }
 
     &__shadow-container {

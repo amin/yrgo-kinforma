@@ -1,16 +1,17 @@
 .hero {
     width: 100vw;
     height: calc(100vh - 6.5rem);
-    background: url("/assets/images/pictures/hero.jpg");
+    background: url("/assets/images/sections/hero/hero-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right top;
+    background-position: center top;
+    overflow: hidden;
 
     display: flex;
     align-items: flex-end;
 
     &__copy {
-        margin-bottom: 2rem;
+        margin-bottom: 1.8rem;
     }
 
     &__heading,
@@ -20,14 +21,15 @@
     }
 
     &__heading {
-        font-size: 100px;
+        font-size: 6rem;
         font-weight: 700;
-        line-height: 100px;
+        line-height: 6rem;
         color: #282829;
     }
 
     &__description {
         font-weight: 600;
+        font-size: 1.25rem;
         color: #ff7b2c;
     }
 

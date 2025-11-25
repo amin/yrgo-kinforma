@@ -1,7 +1,4 @@
 .categories {
-    &__inner {
-        display: grid;
-    }
     &__category {
         position: relative;
         height: 300px;
@@ -38,14 +35,6 @@
     }
 
     @media (min-width: 768px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &__inner {
-            gap: 2rem;
-
-            min-width: 750px;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
+        display: none;
     }
 }
