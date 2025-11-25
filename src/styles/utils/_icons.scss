@@ -56,6 +56,21 @@
         mask-size: contain;
     }
 
+    &--heart {
+        mask: url("/assets/images/icons/heart.svg") no-repeat center;
+        mask-size: contain;
+    }
+
+    &--headphones {
+        mask: url("/assets/images/icons/headphones.svg") no-repeat center;
+        mask-size: contain;
+    }
+    
+    &--map-pin {
+        mask: url("/assets/images/icons/map-pin.svg") no-repeat center;
+        mask-size: contain;
+    }
+
     &--dark {
         background-color: #ffe5d5;
     }
