@@ -10,7 +10,7 @@
         font-weight: 500;
     }
     &__product-image {
-        width: 200%;
+        width: 300px;
     }
     &__product-inner {
         display: flex;
@@ -55,7 +55,7 @@
 
     @media (min-width: 768px) {
         &__product-image {
-            width: 200%;
+            width: 400px;
         }
         &__product-headline,
         &__product-description {
