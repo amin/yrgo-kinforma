@@ -1,5 +1,5 @@
 .hero {
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 6.5rem);
     background: url("/assets/images/sections/hero/hero-mobile.jpg");
     background-repeat: no-repeat;
@@ -35,7 +35,9 @@
 
     @media (min-width: 768px) {
         align-items: center;
-        background-position: right center;
+        background: url("/assets/images/sections/hero/hero.jpg");
+
+        background-position: right -40px;
 
         &__inner {
             margin-bottom: 0;
