@@ -49,7 +49,7 @@
     &__picture {
         height: 700px;
         transform: translateY(2rem);
-        background: url("/assets/images/pictures/footer-mobile.jpg") center center no-repeat;
+        background: url("/assets/images/pictures/img-bottom-mobile.png") center center no-repeat;
         background-size: cover;
     }
 
@@ -57,7 +57,7 @@
         &__picture {
             height: 500px;
             transform: translateY(2rem);
-            background: url("/assets/images/pictures/footer-desktop.jpg") center right no-repeat;
+            background: url("/assets/images/pictures/img-bottom-desktop.png") center right no-repeat;
             background-size: cover;
         }
         .icon--plus {
